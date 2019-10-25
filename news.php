@@ -24,7 +24,7 @@
         </div>
         <div class="row">
             <?php
-                $conn = mysqli_connect('localhost','root','','dbposts');
+                $conn = mysqli_connect('localhost','id11343524_root','123456','id11343524_dbposts');
                 mysqli_set_charset($conn, 'UTF8');
                 if(!$conn){
                     die('Have a error'.mysqli_connect_error());
